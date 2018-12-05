@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>res/Spider.raw</itemPath>
+      <itemPath>res/Spider.spr</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="Engine" displayName="Engine" projectFiles="true">
+        <itemPath>src/Engine/Game.cpp</itemPath>
+        <itemPath>src/Engine/Game.h</itemPath>
+        <itemPath>src/Engine/Log.cpp</itemPath>
+        <itemPath>src/Engine/Log.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Graphics" displayName="Graphics" projectFiles="true">
+        <itemPath>src/Graphics/Colors.h</itemPath>
+        <itemPath>src/Graphics/ConsoleSprite.cpp</itemPath>
+        <itemPath>src/Graphics/ConsoleSprite.h</itemPath>
+        <itemPath>src/Graphics/Frame.cpp</itemPath>
+        <itemPath>src/Graphics/Frame.h</itemPath>
+      </logicalFolder>
+      <itemPath>src/main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>MinGW|MinGW</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <standard>10</standard>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <standard>8</standard>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </compileType>
+      <item path="res/Spider.raw" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="res/Spider.spr" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Engine/Game.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Engine/Game.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Engine/Log.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Engine/Log.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Graphics/Colors.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Graphics/ConsoleSprite.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Graphics/ConsoleSprite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Graphics/Frame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Graphics/Frame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>MinGW|MinGW</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <standard>10</standard>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>8</standard>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="res/Spider.raw" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="res/Spider.spr" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Engine/Game.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Engine/Game.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Engine/Log.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Engine/Log.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Graphics/Colors.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Graphics/ConsoleSprite.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Graphics/ConsoleSprite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Graphics/Frame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Graphics/Frame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
